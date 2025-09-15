@@ -167,6 +167,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   voxelFactory: {fileID: 728381530}
+  voxelPoolSize: 20
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -609,6 +610,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Voxel
       objectReference: {fileID: 0}
+    - target: {fileID: 5274643047858376599, guid: fcb8a15eb6988c244ae9a3d793c7d208,
+        type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5274643047858376599, guid: fcb8a15eb6988c244ae9a3d793c7d208,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1bd9278accbb4794d97f4b37b2593be2, type: 2}
+    - target: {fileID: 5274643047858376599, guid: fcb8a15eb6988c244ae9a3d793c7d208,
+        type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8572303dcf25db04bb6a6f487bda34d5, type: 2}
+    - target: {fileID: 5274643047858376599, guid: fcb8a15eb6988c244ae9a3d793c7d208,
+        type: 3}
+      propertyPath: m_Materials.Array.data[3]
+      value: 
+      objectReference: {fileID: 2100000, guid: d1fa2b9ecc699904a978d6b31fc1b824, type: 2}
     - target: {fileID: 7090901534382219796, guid: fcb8a15eb6988c244ae9a3d793c7d208,
         type: 3}
       propertyPath: m_LocalPosition.x
